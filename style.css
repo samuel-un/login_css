@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e1e9fe;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px #0000003f;
+    text-align: center;
+    width: 350px;
+    height: 550px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 900;
+}
+
+.subtitle {
+    font-size: 20px;
+    font-weight:700
+}
+
+.subtitle a {
+    color: blue;
+    text-decoration: none;
+}
+
+.social-login {
+    display: flex;
+    justify-content: space-between;
+}
+
+.google-btn,
+.fb-btn {
+    border: 2px solid #e0e0e0;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.google-btn {
+    width: 285px;
+    justify-content: center;
+}
+
+.google-btn:hover,
+.fb-btn:hover {
+    background-color: #f1f3f4;
+    border: 3px solid blue;
+}
+
+.google-btn img,
+.fb-btn img {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+}
+
+.btn-text {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.or {
+    font-size: 18px;
+    font-weight: 800;
+    margin: 10px 0;
+    padding-bottom: 15px;
+}
+
+.or span::before {
+    font-size: 19px;
+    content: "_______________ ";
+    color: #e2e4e5;
+    font-weight: 700
+}
+
+.or span::after {
+    font-size: 19px;
+    content: " _______________";
+    color: #e2e4e5;
+    font-weight: 700
+}
+
+.email-login label{
+    font-size: 18px;
+    color: #9a9a9a;
+    display: block;
+    text-align: left;
+    margin: 10px 0 10px;
+}
+
+.email-login input {
+    width: 95%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px ;
+    font-size: 12px;
+}
+
+.cta-btn {
+    background-color: rgba(33, 4, 179, 0.83);
+    color: white;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+a.forget-pass {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+}
